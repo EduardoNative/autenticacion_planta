@@ -1,15 +1,17 @@
 import { Form, Col, Row, Image, Container } from "react-bootstrap";
-import imagen from "../assets/imagen.jpg"
+import imagen from "../assets/imagen.jpg";
 
 export const SingUp = () => {
   return (
     <Container fluid>
       <Row>
-        <Col>
+        <Col xl={2}>
           <h1>hola</h1>
         </Col>
 
-        <Image src={imagen} style={{width:"50%", height:"50%"}} />
+        <Col>
+          <Image src={imagen} fluid />
+        </Col>
       </Row>
     </Container>
   );
